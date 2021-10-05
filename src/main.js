@@ -7,6 +7,8 @@ let incButton = document.getElementById("inc-button");
 let decButton = document.getElementById("dec-button");
 let view = document.getElementById("view");
 
+updateView(); // set initial value
+
 incButton.onclick = renderInc;
 decButton.onclick = renderDec;
 
